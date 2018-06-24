@@ -1,0 +1,6 @@
+haveibeenpwned:
+    # Should the user be allow to login if Have I Been Pwned is unreachable?
+    allow_login_when_api_not_available: false
+
+    # The breach error message will automatically replace @count with the number of breaches and @breach with a singular or plural of the word in English.
+    breach_error_message: 'Your password was used in @count known security @breach. As a result, your login attempt has been blocked. please reset your password via the forgot password form.'
