@@ -30,9 +30,14 @@ class HaveIBeenPwnedService
                 // Have I Been pwned API returns HASH:COUNT.
                 $match_parts = explode(':', $match);
                 return end($match_parts);
+            } else {
+                return 0;
             }
         }
-        return 0;
+
+        // We failed to get any hashes. The minimum hashes we should have received
+        // is well over 300 for any possible password.
+        return -1;
     }
 
     /**
