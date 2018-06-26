@@ -3,6 +3,10 @@
     "description": "",
     "type": "bolt-extension",
     "keywords": [
+        "Have I Been Pwned",
+        "passwords",
+        "password policy",
+        "security"
     ],
     "require": {
         "bolt/bolt": "^3.0"
@@ -13,7 +17,7 @@
     "license": "MIT",
     "authors": [
         {
-            "name": "",
+            "name": "Scott Euser",
             "email": "scotteuser@gmail.com"
         }
     ],
@@ -32,6 +36,13 @@
     },
     "extra": {
         "bolt-assets": "web",
-        "bolt-class": "Bolt\\Extension\\ScottEuser\\PasswordHaveIBeenPwned\\PasswordHaveIBeenPwnedExtension"
+        "bolt-class": "Bolt\\Extension\\ScottEuser\\PasswordHaveIBeenPwned\\PasswordHaveIBeenPwnedExtension",
+        "bolt-icon": "passwordhaveibeenpwned.png",
+        "bolt-screenshots": [
+            "screenshot.png"
+        ],
+        "branch-alias": {
+            "dev-master": "1.0.x-dev"
+        }
     }
 }
