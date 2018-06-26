@@ -3,6 +3,8 @@ Password Have I Been Pwned
 
 This extension extends the Bolt password check on login to also check Have I Been Pwned API V2. If the password has been used in known security breaches it blocks the login with an appropriate message.
 
+![Screenshot of message when logging in and password is in known breach](https://raw.githubusercontent.com/scotteuser/passwordhaveibeenpwned/master/screenshot.png)
+
 ## Config
 
 Please see `/app/config/extensions/passwordhaveibeenpwned.scotteuser.yml`.
