@@ -20,6 +20,10 @@ No, this uses API Version 2. The process is as follows:
 
 Troy Hunt explains the process in his documentation [here](https://haveibeenpwned.com/API/v2#SearchingPwnedPasswordsByRange).
 
+## Is my email sent to Have I Been Pwned?
+
+No, the email is never sent: only the hash of the password as described above.
+
 ## Note
 
 I would appreciate feedback and suggestions to improve this extension as Bolt is new territory for me. Go easy :)
